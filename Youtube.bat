@@ -1,0 +1,1 @@
+start youtube --kiosk --no-first-run --no-default-browser-check --user-agent="Mozilla/5.0 (PS4; Leanback Shell) Cobalt/25.lts.0-qa; compatible;" --app="https://www.youtube.com/tv" --force-device-scale-factor=0.711 --enable-gpu-rasterization --enable-zero-copy --ignore-gpu-blocklist --enable-low-end-device-mode --disable-background-networking --disable-sync
