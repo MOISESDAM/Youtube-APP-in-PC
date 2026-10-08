@@ -1,1 +1,29 @@
 # Youtube-APP-in-PC
+# 📺 YouTube PC (TV)
+
+Una aplicación de escritorio ligera, portable y sin bordes para Windows que emula la experiencia nativa de **YouTube TV** en consolas de videojuegos. Diseñada específicamente para funcionar en modo kiosco, libre de elementos visuales de navegador y optimizada para navegación con teclado o mando.
+
+![Estado del Proyecto](https://img.shields.io/badge/Estado-Estable-brightgreen)
+![Plataforma](https://img.shields.io/badge/Plataforma-Windows%2010%20%7C%2011-blue)
+![Licencia](https://img.shields.io/badge/Licencia-MIT-orange)
+
+---
+
+## ✨ Características Principales
+
+* 🎮 **Identificación de Consola Real**: Forzada mediante spoofing de `User-Agent` y `navigator.platform` para reportar a los servidores de Google como `GAME_CONSOLE (Sony/PS4, Cobalt 25)`.
+* ⚡ **Aceleración por Hardware**: Banderas CLI optimizadas (`--enable-gpu-rasterization`, `--enable-zero-copy`, `--ignore-gpu-blocklist`) para reproducción fluida a 1080p/4K con bajo consumo de CPU.
+
+
+---
+
+## 🏗️ Estructura del Proyecto
+
+```text
+├── YTTV_Fix/                # Extensión Manifest V3 para inyección y parches
+│   ├── manifest.json
+│   └── content.js           # Interceptor de hotkeys y spoofing de navigator.platform
+├── installer.iss            # Script de compilación de Inno Setup
+├── YouTube.bat              # Script de arranque de Chromium con flags avanzadas
+├── .gitignore               # Archivo de exclusión para binarios pesados
+└── README.md                # Documentación del proyecto
