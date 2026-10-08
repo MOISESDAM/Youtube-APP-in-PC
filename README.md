@@ -1,6 +1,13 @@
 # Youtube-APP-in-PC
 # 📺 YouTube PC (TV)
 
+## ⚠️ Aviso Legal / Disclaimer
+
+Este proyecto es una aplicación no oficial desarrollada con fines educativos y de uso personal/kiosco. 
+- **YouTube** y **Chrome / Chromium** son marcas registradas de **Google LLC**.
+- Este software no está afiliado, patrocinado ni respaldado por Google LLC.
+- Todo el código de empaquetado, scripts de configuración y extensiones personalizadas están bajo la licencia MIT © moisesdam.
+- 
 Una aplicación de escritorio ligera, portable y sin bordes para Windows que emula la experiencia nativa de **YouTube TV** en consolas de videojuegos. Diseñada específicamente para funcionar en modo kiosco, libre de elementos visuales de navegador y optimizada para navegación con teclado o mando.
 
 ![Estado del Proyecto](https://img.shields.io/badge/Estado-Estable-brightgreen)
@@ -17,20 +24,12 @@ Una aplicación de escritorio ligera, portable y sin bordes para Windows que emu
 
 ---
 
+
 ## 🏗️ Estructura del Proyecto
 
 ```text
-├── YTTV_Fix/                # Extensión Manifest V3 para inyección y parches
-│   ├── manifest.json
-│   └── content.js           # Interceptor de hotkeys y spoofing de navigator.platform
 ├── installer.iss            # Script de compilación de Inno Setup
 ├── YouTube.bat              # Script de arranque de Chromium con flags avanzadas
 ├── .gitignore               # Archivo de exclusión para binarios pesados
 └── README.md                # Documentación del proyecto
 
-## ⚠️ Aviso Legal / Disclaimer
-
-Este proyecto es una aplicación no oficial desarrollada con fines educativos y de uso personal/kiosco. 
-- **YouTube** y **Chrome / Chromium** son marcas registradas de **Google LLC**.
-- Este software no está afiliado, patrocinado ni respaldado por Google LLC.
-- Todo el código de empaquetado, scripts de configuración y extensiones personalizadas están bajo la licencia MIT © moisesdam.
