@@ -12,7 +12,7 @@ OutputBaseFilename=YouTube-PC
 
 [Files]
 ; Copia todos los archivos (Chromium, el .bat y el icono.ico)
-Source: "C:\Users\moise\Downloads\youtube-tv-win\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\Users\\Downloads\youtube-tv-win\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 
 [Icons]
 ; Inno Setup genera el acceso directo adaptado automáticamente a la PC donde se instale
