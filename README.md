@@ -23,13 +23,3 @@ Una aplicación de escritorio ligera, portable y sin bordes para Windows que emu
 
 
 ---
-
-
-## 🏗️ Estructura del Proyecto
-
-```text
-├── installer.iss            # Script de compilación de Inno Setup
-├── YouTube.bat              # Script de arranque de Chromium con flags avanzadas
-├── .gitignore               # Archivo de exclusión para binarios pesados
-└── README.md                # Documentación del proyecto
-
