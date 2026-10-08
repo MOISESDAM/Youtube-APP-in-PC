@@ -1,6 +1,5 @@
 # Youtube-APP-in-PC
 # 📺 YouTube PC (TV)
-- 
 Una aplicación de escritorio ligera, portable y sin bordes para Windows que emula la experiencia nativa de **YouTube TV** en consolas de videojuegos. Diseñada específicamente para funcionar en modo kiosco, libre de elementos visuales de navegador y optimizada para navegación con teclado o mando.
 
 ![Estado del Proyecto](https://img.shields.io/badge/Estado-Estable-brightgreen)
