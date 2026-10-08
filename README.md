@@ -27,3 +27,10 @@ Una aplicación de escritorio ligera, portable y sin bordes para Windows que emu
 ├── YouTube.bat              # Script de arranque de Chromium con flags avanzadas
 ├── .gitignore               # Archivo de exclusión para binarios pesados
 └── README.md                # Documentación del proyecto
+
+## ⚠️ Aviso Legal / Disclaimer
+
+Este proyecto es una aplicación no oficial desarrollada con fines educativos y de uso personal/kiosco. 
+- **YouTube** y **Chrome / Chromium** son marcas registradas de **Google LLC**.
+- Este software no está afiliado, patrocinado ni respaldado por Google LLC.
+- Todo el código de empaquetado, scripts de configuración y extensiones personalizadas están bajo la licencia MIT © moisesdam.
